@@ -115,3 +115,16 @@ We wrote an endpoint that will send data by filtering with my mail and send data
 We learnt how to receive data at frontend -How to display that data dynamically using product card created earlier.
 Summary : Write an endpoint that will send all products with user mail to frontend In frontend write an function to get all the data Display these data dynamically passing to product card component.
 Tech Stack : React - frontend - pages - myProduct.jsx.
+
+# Milestone 13 : In this miletone, we will add an functionality to edit the uploaded products.
+Key feautures : We will add edit button and then write and backend endpoint to update the new details inside MongoDB database. How to write an endpoint that will update the existing data in MongoDB. How to auto fill the form with previous data and give option to edit. Summary : Write an endpoint that will receive new data and update the existing data inside MondoDB. In frontend we will add an edit button to the product card. When click on edit we will send the data to form and make it auto fill and have option to edit those data and save. Tech Stack : React - frontend - components - MyProduct.jsx Backend - controller - product.js
+
+# Milestone 14 : In this milestone, we will add an functionality to delete button to the product data and write and backend endpoint to delete the product with the use of ID.
+Key feautures: How to write an endpoint that delete the product with specific ID from MongoDB. Wrote an endpoint that will Delete the data form MongoDB using ID. In frontend we will add an delete button to the product card. When click on delete button we will send the product id to server endpoint. Summary : We created an delete option in myproducts Tech Stack : React - frontend - component - MyProduct.jsx Backend - controller - product.js
+
+# Milestone 15 : In this milestone, we will create and Navbar component and add nav component to every screen.
+
+Key feautures: Create an new Nav component with links to all pages: Home, My-products, Add product, Cart. Made the Navbar responsive to all screen sizes. We added the nav component to all the pages and make the navigations to all this pages smooth and easy. Summary : We created a NavBar component where we can access different pages directly just creating a button instead of changing the URL. And also we made the NavBar responsive according to device (..like Desktop and Mobilephone). Tech Stack : React - frontend - src - components - NavBar.jsx React - frontend - pages - Cart.jsx
+
+# Milestone 16 : In this milestone, we will create an product info page that display all the product data and choose quantity and add to card button.
+Key feautures: Created an new page that display all the product data. Add quantity and add to card button. Summary : We created an ProductDetails page to view the product with desired id, and added a count button with increase(+) and decrease(-) option in it. Tech Stack : React - frontend - src - pages - ProductDetails
